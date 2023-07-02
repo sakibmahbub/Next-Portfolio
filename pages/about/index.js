@@ -100,10 +100,13 @@ import Circles from "../../components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
+// counter
+import CountUp from "react-countup";
+
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="h-full xl:mt-20 bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
       {/* avatar */}
       {/* <motion.div
@@ -117,8 +120,77 @@ const About = () => {
       </motion.div> */}
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
-        <div className="flex-1 flex flex-col justify-center">text</div>
-        <div className="flex flex-col w-full justify-center xl:max-w-[48%] h-[480px]">
+        {/* text */}
+        <div className="flex-1 flex flex-col justify-center">
+          <motion.h2
+            variants={fadeIn("right, 0.2")}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="h2"
+          >
+            Creative <br />
+            <span className="text-accent">Front-End</span> Enthusiast
+          </motion.h2>
+          <motion.p
+            variants={fadeIn("right, 0.4")}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2"
+          >
+            I completed a comprehensive web development course where I gained
+            proficiency in HTML, CSS, JavaScript, React.js, and more. I'm
+            excited to pursue a career as a front-end developer and contribute
+            my skills to develop innovative solutions.
+          </motion.p>
+          {/* counters */}
+          <motion.div
+            variants={fadeIn("right, 0.6")}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="ml-2 hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8"
+          >
+            <div className="flex flex-1 xl:gap-x-6">
+              {/* experience */}
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={2} duration={3} />+
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                  Years of Experience
+                </div>
+              </div>
+              {/* clients */}
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={100} duration={3} />+
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                  Satisfied clients
+                </div>
+              </div>
+              {/* projects */}
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={150} duration={3} />+
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                  Finished projects
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+        {/* info */}
+        <motion.div
+          variants={fadeIn("left, 0.4")}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          className="flex flex-col w-full justify-center xl:max-w-[48%] h-[480px]"
+        >
           <div className={`flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4`}>
             {aboutData.map((item, itemIndex) => {
               return (
@@ -162,7 +234,7 @@ const About = () => {
               );
             })}
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

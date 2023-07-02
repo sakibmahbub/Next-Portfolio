@@ -15,7 +15,7 @@ const Header = () => {
           {/* logo */}
           <Link href="/">
             <h1 className="text-3xl font-light">
-              <span className="font-semibold text-accent">Sakib</span> Mahbub
+              <span className="font-semibold ">Sakib</span> Mahbub
             </h1>
           </Link>
           {/* socials */}
