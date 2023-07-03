@@ -13,20 +13,21 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/3.png",
+          path: "/6.png",
         },
-        // {
-        //   title: "title",
-        //   path: "/4.png",
-        // },
-        // {
-        //   title: "title",
-        //   path: "/5.png",
-        // },
-        // {
-        //   title: "title",
-        //   path: "/6.png",
-        // },
+      
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "/7.png",
+        },
+        {
+          title: "title",
+          path: "/5.png",
+        },
         // {
         //   title: "title",
         //   path: "/7.png",
@@ -35,26 +36,6 @@ const workSlides = {
         //   title: "title",
         //   path: "/4.png",
         // },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/thumb4.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
       ],
     },
   ],
