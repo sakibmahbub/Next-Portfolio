@@ -123,7 +123,7 @@ const About = () => {
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
-            variants={fadeIn("right, 0.2")}
+            variants={fadeIn("right", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -133,7 +133,7 @@ const About = () => {
             <span className="text-accent">Front-End</span> Enthusiast
           </motion.h2>
           <motion.p
-            variants={fadeIn("right, 0.4")}
+            variants={fadeIn("right", 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -146,7 +146,7 @@ const About = () => {
           </motion.p>
           {/* counters */}
           <motion.div
-            variants={fadeIn("right, 0.6")}
+            variants={fadeIn("right", 0.6)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -185,7 +185,7 @@ const About = () => {
         </div>
         {/* info */}
         <motion.div
-          variants={fadeIn("left, 0.4")}
+          variants={fadeIn("left", 0.4)}
           initial="hidden"
           animate="show"
           exit="hidden"

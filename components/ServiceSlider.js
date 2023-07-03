@@ -7,7 +7,10 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // required modules
-import { FreeMode, Pagination } from "swiper";
+import SwiperCore, { FreeMode, Pagination } from "swiper";
+
+// Initialize
+SwiperCore.use([FreeMode, Pagination]);
 
 // icons
 import {
