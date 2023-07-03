@@ -24,13 +24,17 @@ const Contact = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Let's <span className="text-accent">connect.</span>
+            Let&apos;s <span className="text-accent">connect.</span>
           </motion.h2>
           {/* form */}
-          <motion.form variants={fadeIn("up", 0.4)}
+          <motion.form
+            variants={fadeIn("up", 0.4)}
             initial="hidden"
             animate="show"
-            exit="hidden" action="" className="flex-1 flex flex-col gap-6 w-full mx-auto">
+            exit="hidden"
+            action=""
+            className="flex-1 flex flex-col gap-6 w-full mx-auto"
+          >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
               <input type="text" placeholder="name" className="input" />

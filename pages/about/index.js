@@ -132,7 +132,7 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2"
           >
             I completed a web development course where I gained proficiency in
-            HTML, CSS, JavaScript, React.js, and more. I'm excited to pursue a
+            HTML, CSS, JavaScript, React.js, and more. I am excited to pursue a
             career as a front-end developer and contribute my skills to develop
             innovative solutions.
           </motion.p>

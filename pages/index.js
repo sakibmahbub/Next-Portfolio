@@ -40,7 +40,7 @@ const Home = () => {
           >
             Welcome to my portfolio website! Explore my passion for front-end
             development, where I craft captivating digital experiences with
-            clean code and exquisite design. Let's create extraordinary web
+            clean code and exquisite design. Let&apos;s create extraordinary web
             experiences together!
           </motion.p>
           {/* btn */}
