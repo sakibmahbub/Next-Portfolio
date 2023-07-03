@@ -31,9 +31,10 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-              suscipit repudiandae magni sapiente autem ipsam tempore error
-              maxime a ex?
+              Here you can explore a curated collection of my past projects.
+              Each project represents my commitment to excellence in front-end
+              development and showcases my skills in creating remarkable digital
+              experiences.
             </motion.p>
           </div>
           {/* slider */}

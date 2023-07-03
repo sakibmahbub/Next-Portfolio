@@ -2,24 +2,24 @@
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
+    name: "teezyvai",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "It was very exciting to work with a professional who loves and knows what they are doing. He executed my expectations with accuracy and I am well pleased. I would definitely recommend him. If you are looking for your website to be done with excellency then shoot him a message.!",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
+    name: "jasminewade",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Sakib did an amazing job on my website for my new business. His communication is also great and on time every time. I had no idea how to creat a professional website and he made my Dream website come to life. Thank you 🙏 so much. I will definitely recommend his services to others!!",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
+    name: "jahmayamesidor",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Great service and attention to details. Great experience! I can not recommend highly enough, thank you to sakib_mahbub and will be using again in future.!",
   },
 ];
 

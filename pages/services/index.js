@@ -31,9 +31,10 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-              suscipit repudiandae magni sapiente autem ipsam tempore error
-              maxime a ex?
+              I offer a range of services designed to bring your digital vision
+              to life. With expertise in HTML, CSS, JavaScript, and user
+              experience design, I am dedicated to delivering exceptional
+              results.
             </motion.p>
           </div>
           {/* slider */}

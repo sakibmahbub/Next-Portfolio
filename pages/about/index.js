@@ -34,7 +34,7 @@ const aboutData = [
         ],
       },
       {
-        title: "UI/UX Design",
+        title: "Design Tools",
         icons: [
           <FaFigma key="figma" />,
           <SiAdobexd key="xd" />,
@@ -44,15 +44,15 @@ const aboutData = [
     ],
   },
   {
-    title: "awards",
+    title: "Education",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "University of Chittagong (B.A.)",
+        stage: "2018 - 2022",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "University of Chittagong (M.A.)",
+        stage: "2022 - 2023",
       },
     ],
   },
@@ -60,33 +60,25 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Freelance Web Designer - Fiverr",
+        stage: "2021 - 2023",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Freelance Web Designer - Fiverr",
+        stage: "2021 - 2023",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "Courses",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Complete Web Development - Programming Hero",
+        stage: "2023",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Think In A Redux Way - Learn With Sumit",
+        stage: "2023",
       },
     ],
   },
@@ -139,10 +131,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2"
           >
-            I completed a comprehensive web development course where I gained
-            proficiency in HTML, CSS, JavaScript, React.js, and more. I'm
-            excited to pursue a career as a front-end developer and contribute
-            my skills to develop innovative solutions.
+            I completed a web development course where I gained proficiency in
+            HTML, CSS, JavaScript, React.js, and more. I'm excited to pursue a
+            career as a front-end developer and contribute my skills to develop
+            innovative solutions.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -156,7 +148,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={3} />+
+                  <CountUp start={0} end={1} duration={3} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of Experience
@@ -165,7 +157,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={100} duration={3} />+
+                  <CountUp start={0} end={20} duration={3} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
@@ -174,7 +166,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={150} duration={3} />+
+                  <CountUp start={0} end={50} duration={3} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
