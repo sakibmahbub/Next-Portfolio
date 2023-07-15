@@ -4,38 +4,41 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "Food Fusion",
           path: "/1.png",
+          link: "https://food-fusion-a8a59.web.app/",
         },
         {
-          title: "title",
+          title: "PlayWheels",
+          path: "/3.png",
+          link: "https://playwheels-a4226.web.app/",
+        },
+        {
+          title: "Growjobs",
           path: "/2.png",
+          link: "https://growjobs.netlify.app/",
         },
+
         {
-          title: "title",
+          title: "Ai Universe Hub",
           path: "/6.png",
+          link: "https://aiuniversebysakib.netlify.app/",
         },
-      
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/7.png",
-        },
-        {
-          title: "title",
+          title: "Legal Solutions",
           path: "/5.png",
+          link: "https://legalsolutionswebsite.netlify.app/",
         },
-        // {
-        //   title: "title",
-        //   path: "/7.png",
-        // },
-        // {
-        //   title: "title",
-        //   path: "/4.png",
-        // },
+
+        {
+          title: "The code crafter",
+          path: "/7.png",
+          link: "https://thecodecrafter.netlify.app/",
+        },
       ],
     },
   ],
@@ -60,6 +63,7 @@ SwiperCore.use([FreeMode, Pagination]);
 
 //icons
 import { BsArrowRight } from "react-icons/bs";
+import Link from "next/link";
 
 const WorkSlider = () => {
   return (
@@ -81,22 +85,29 @@ const WorkSlider = () => {
                   >
                     <div className="flex items-center justify-center relative overflow-hidden group">
                       {/* image */}
-                      <Image src={image.path} width={500} height={300} alt="" />
+                      <Image
+                        src={image.path}
+                        width={500}
+                        height={300}
+                        alt="image.title"
+                      />
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       {/* title */}
                       <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
-                        <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
-                          {/* title part 1 */}
-                          <div className="delay-100">Live</div>
-                          {/* title part 2 */}
-                          <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                            Project
+                        <Link href={image.link}>
+                          <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
+                            {/* title part 1 */}
+                            <div className="delay-100">Live</div>
+                            {/* title part 2 */}
+                            <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
+                              Project
+                            </div>
+                            {/* icon */}
+                            <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
+                              <BsArrowRight />
+                            </div>
                           </div>
-                          {/* icon */}
-                          <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">
-                            <BsArrowRight />
-                          </div>
-                        </div>
+                        </Link>
                       </div>
                     </div>
                   </div>
